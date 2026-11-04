@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería y Multimedia - Downhill Extreme</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Downhill Extreme</h1>
+        <p>Galería multimedia de pistas y saltos extremos</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor principal">
+        <h2>Galería Fotográfica y Contenido Multimedia</h2>
+        <p>Explora nuestras mejores capturas en los senderos más desafiantes y disfruta del contenido audiovisual del descenso.</p>
+        
+        <!-- Contenedor Flexbox con tarjetas e imágenes -->
+        <div class="galeria-flex">
+            <div class="tarjeta">
+                <img src="img/item2.jpg" alt="Pista de descenso rocosa" class="img-responsive">
+                <h3>Pista Alta Montaña</h3>
+                <p>Curvas cerradas y terreno suelto con máxima exigencia técnica.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="img/item3.jpg" alt="Salto de rampa en downhill" class="img-responsive">
+                <h3>Zona de Saltos</h3>
+                <p>Vuelos prolongados y técnica de recepción en zonas de doble salto.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="img/banner.jpg" alt="Entrenamiento en equipo" class="img-responsive">
+                <h3>Jornada de Práctica</h3>
+                <p>Preparación previa y revisión de líneas de descenso con el equipo.</p>
+            </div>
+        </div>
+
+        <section class="seccion-multimedia">
+            <h3>Contenido Audiovisual</h3>
+            <p>Visualiza el siguiente video representativo sobre la adrenalina y preparación en el ciclismo de descenso:</p>
+            <div class="video-contenedor">
+                <!-- Video multimedia embebido (requisito de multimedia) -->
+                <video controls width="100%" class="img-responsive">
+                    <source src="img/video-downhill.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video HTML5.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Autor: Justin Cuji | Contacto: <a href="mailto:jcuji@est.ups.edu.ec">jcuji@est.ups.edu.ec</a> | &copy; 2026 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
