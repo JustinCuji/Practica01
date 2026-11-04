@@ -4,7 +4,7 @@ require_once 'conexion.php';
 $sql = "SELECT nombre, correo, asunto, mensaje, fecha_registro FROM mensajes ORDER BY fecha_registro DESC";
 $resultado = $conn->query($sql);
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html 
 <html lang="es">
 <head>
     <meta charset="UTF-8">

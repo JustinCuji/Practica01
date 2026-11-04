@@ -1,10 +1,5 @@
-/* ==========================================================================
-   HOJA DE ESTILOS EXTERNA - PRÁCTICA 01 (PROGRAMACIÓN Y PLATAFORMAS WEB)
-   Autor: Justin Cuji
-   Temática: Downhill Extreme
-   ========================================================================== */
 
-/* --- 1. HERENCIA Y CONFIGURACIÓN GENERAL --- */
+/* 1. HERENCIA Y CONFIGURACIÓN GENERAL */
 /* Definición de tipografía, color general y reinicio básico */
 * {
     box-sizing: border-box;
